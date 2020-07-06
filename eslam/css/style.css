@@ -89,7 +89,7 @@ color: #3885ff !important;
     
 }
 #car1 {
-    background-image: url(../images/slider/home/image-asset.jpeg);
+    background-image: url(../images/slider/home/image-asset.jpg);
     background-clip: border-box;
     background-position: center right;
     background-repeat: no-repeat;
@@ -297,8 +297,7 @@ padding-left: 3px;
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.57);
     border-top: solid 3px #135caa;
     border-bottom: solid 8px #135caa;
-    height: 245px;
-/*    height: 100%;*/
+    height: 100%;
      
 
 }
