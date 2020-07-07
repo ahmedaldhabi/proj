@@ -55,6 +55,12 @@ line-height: 30px;
 letter-spacing: 2px;
 margin: 3px 7px;
      font-weight: bold;
+    transition: all 0.5s;
+}
+.nav-item:hover {
+    background: aliceblue;
+    border-radius: 5px;
+    transition: all 0.5s;
 }
 .nav-link.active {
    border-bottom: solid 3px #3885ff;
@@ -80,7 +86,7 @@ color: #3885ff !important;
 
 
 
-.bd-example {
+.slider-home {
     padding-top: 90px;
     padding-bottom: 10px;
     margin-top: 0px;
@@ -126,8 +132,27 @@ color: #3885ff !important;
 .slider-img {
     height: 87vh;
 }
-
-
+.carousel-caption h1 {
+    font-size: 40px;
+color: rgb(255, 255, 255);
+background: rgba(56, 133, 255, 0.61);
+padding-top: 6px;
+padding-bottom: 6px;
+border-radius: 10px;
+    
+}
+.carousel-caption p {
+        font-size: 18px;
+color: rgb(60, 60, 60);
+background: rgba(255, 255, 255, 0.6);
+padding-top: 6px;
+    padding-bottom: 6px;
+border-radius: 10px;
+    }
+.carousel-caption p:hover{
+color: rgb(255, 255, 255);
+    background: rgba(5, 5, 5, 0.6);
+    }
 
 #about {
     
@@ -300,6 +325,15 @@ padding-left: 3px;
     height: 100%;
      
 
+}
+.sv-tit {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+    
+    
 }
 /* .crd:hover {
     background: gray;
@@ -670,6 +704,19 @@ height: 35px;
     
     
 }
+.rv-f-s {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.5s cubic-bezier(0, 0, .75, .75);
+    
+    
+}
+.rv-f-s.rv-ff-s {
+    opacity: 1;
+    transform: translateX(0);
+    
+    
+}
 
 /* //////// END ANIMATIONS //////// */
 
@@ -700,7 +747,7 @@ color: #3885ff !important;
     
 }    
 
-.bd-example {
+.slider-home {
     padding-top: 0px;
     padding-bottom: 10px;
     margin-top: 60px;
@@ -754,6 +801,23 @@ color: #3885ff !important;
     
 } /*end media 770*/
 
+@media (max-width: 550.00px) { 
+    .carousel-caption h1 {
+       font-size: 22px; 
+        font-weight: bolder;
+    }
+    .carousel-caption p {
+        font-size: 14px;
+color: rgb(210, 210, 210);
+background: #7373734a;
+padding-top: 6px;
+border-radius: 10px;
+        padding-bottom: 6px;
+    }
+    .carousel-caption p:hover{
+color: white;
+    }
+} /*end media 550*/
 
 @media (max-width: 410.00px) { 
 

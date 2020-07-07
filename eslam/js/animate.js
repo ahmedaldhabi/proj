@@ -38,6 +38,23 @@ $(document).ready(function() {
     });
     
 
+    $('.rv-f-s').each(function(){
+    var ourScene2 = new ScrollMagic.Scene({
+    triggerElement: this,
+    triggerHook: 0.73,
+    reverse: false,
+        
+    })
+    .setClassToggle(this, 'rv-ff-s') // add the class to show up
+    .addTo(controller);
+        
+        
+        
+        
+        
+        
+        
+    });
     
     
     
