@@ -31,6 +31,7 @@ background-size: auto;
     box-shadow: 0px 2px 0px 0px #3384f2, 0px 2px 2px 1px rgba(44,44,44,100), 0px -1px 1px 0px rgba(46, 74, 229, 0.2) inset;
     transition: 0.4s;
     padding: 10px 0px;
+    background: #fff;
 }
 
 #logo-img {
@@ -370,7 +371,7 @@ border-top-right-radius: 0;
     border-top: dashed 1.4px white;
     border-bottom: dashed 1.4px white;
     position: relative;
-    bottom: 34px;
+/*    bottom: 34px;*/
     right: 0px;
     left: 0px;
     overflow: visible;
@@ -378,6 +379,7 @@ border-top-right-radius: 0;
     object-fit: fill;
     float: left;
     clear: both;
+    margin: 5px auto;
 }
 .crd-tit {
     font-weight: bolder;
@@ -706,8 +708,8 @@ height: 35px;
 }
 .rv-f-s {
     opacity: 0;
-    transform: translateX(50px);
-    transition: all 0.5s cubic-bezier(0, 0, .75, .75);
+    transform: translateX(-50px);
+    transition: all 1.4s ease-out;
     
     
 }
