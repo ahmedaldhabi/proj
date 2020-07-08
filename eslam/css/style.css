@@ -459,7 +459,80 @@ word-break: break-all;
     background: rgba(0, 37, 106, 0.67);
     
 }
+.bk-dv {
+    position: absolute;
+    left: 50%;
+    width: 3px;
+    background: white;
+    height: 58.5%;
+    
+}
+.cities-block{
+    background: rgba(219, 219, 219, 0.29);
+    
+    
+}
+.cities {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    background:  rgba(31, 31, 31, 0.75);
+    width: 100%;
+}
+.c-phone {
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+    word-break: break-all;
+    overflow: visible;
+    margin: 26px 0px;
+    font-size: 18px;
+letter-spacing: 0.101em;
+font-weight: 600;
+}
+.c-fax {
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+    word-break: break-all;
+    overflow: visible;
+    margin: 26px 0px;
+    font-size: 18px;
+letter-spacing: 0.101em;
+font-weight: 600;
+}
+.c-location {
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+    word-break: break-all;
+    overflow: visible;
+    margin: 26px 0px;
+    font-size: 18px;
+letter-spacing: 0.101em;
+font-weight: 600;
+}
+.c-email {
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+    word-break: break-all;
+    overflow: visible;
+    margin: 26px 0px;
+    font-size: 18px;
+letter-spacing: 0.101em;
+font-weight: 600;
+}
 
+.c-n-i {
+    margin-right: 9px;
+    
+    
+}
 .loc-hld {
     padding-top: 25px;
     
@@ -723,8 +796,13 @@ height: 35px;
 /* //////// END ANIMATIONS //////// */
 
 /* start media quiries */
+@media (min-width: 992px) {
+    .l-b {
+        border-left: 2px solid white;
+        
+    }
 
-
+}
 @media (max-width: 770.98px) { 
 
 .nav-item {
