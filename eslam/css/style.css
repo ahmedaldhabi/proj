@@ -242,6 +242,10 @@ background-size: cover;
     box-shadow: 0px 80px 70px -50px #951d118f inset, 0px 20px 70px -50px #f7c9408f inset;
 
 }
+.aw-hold p {
+    color: #fff;
+    
+}
 .aw-crd {
     border-left: 5px solid #d54d0b;
 background: rgba(64, 8, 8, 0.42);
