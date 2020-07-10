@@ -479,15 +479,33 @@
                 
                 
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-             <h1 class="cl-w-bg-b section-title text-center">Or Use Our From</h1>
-            <input type="text" placeholder="Name" class="f-blk form-control">
-            <input type="text" placeholder="Email" class="f-blk form-control">
-            <input type="text" placeholder="Subject" class="f-blk form-control">
-           <textarea class="f-blk form-control" rows="5" placeholder="Message"></textarea>
+             <h1 class="cl-w-bg-b section-title text-center">Or Use Our Form</h1>
+             <form action="http://alrashed-ye.net" method="post" class="wpcf7-form init" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="14">
+<input type="hidden" name="_wpcf7_version" value="5.2">
+<input type="hidden" name="_wpcf7_locale" value="en_US">
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f14-p12-o1">
+<input type="hidden" name="_wpcf7_container_post" value="12">
+<input type="hidden" name="_wpcf7_posted_data_hash" value="">
+</div>
+            <input name="your-name" value="" type="text" placeholder="Name" class="f-blk form-control" aria-required="true" aria-invalid="false">
+            <input type="email" name="your-email" value="" placeholder="Email" class="f-blk form-control" aria-required="true" aria-invalid="false">
+            <input type="text" placeholder="Phone number (optional)" class="f-blk form-control" name="text-384" value="" id="pho" aria-invalid="false">
+            <input type="text" name="your-subject" value="" placeholder="Subject" class="f-blk form-control" aria-invalid="false">
+           <textarea name="your-message" class="f-blk form-control" rows="5" placeholder="Message" aria-invalid="false"></textarea>
+           <input type="submit" value="Send" class="btn btn-danger f-blk" style="color: white !important; height: auto; font-size: 1.5rem;
+letter-spacing: 0.006em;
+font-weight: 700;
+line-height: 1.3;"><span class="ajax-loader"></span>
+            <div class="wpcf7-response-output" role="alert" aria-hidden="true"></div>
+            </form>
+<!--
             <button class="btn btn-danger f-blk" value="submit" style="color: white !important; height: auto; font-size: 1.5rem;
 letter-spacing: 0.006em;
 font-weight: 700;
 line-height: 1.3;">SUBMIT</button>
+-->
         </div>        
                 
         </div>
