@@ -589,6 +589,43 @@ letter-spacing: 2.89px;
 font-weight: 500;
     
 }
+.f-ca{
+    position: absolute;
+top: 0px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+background: rgba(72, 72, 72, 0.5);
+width: 100%;
+height: 105%;
+content: "";
+border-radius: 5px;
+margin: -10px -5px -10px 6px;
+    
+}
+.f-cb, .f-cb:hover {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 44px;
+line-height: 58px;
+letter-spacing: 0.062em;
+font-weight: 800;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding-top: 25%;
+}
+.ifr-con {
+    width: 100%;
+    height: 324px;
+}
+
+
 .f-blk {
     display: block;
     width: 100%;
