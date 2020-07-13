@@ -952,6 +952,11 @@ border-radius: 10px;
     .carousel-caption p:hover{
 color: white;
     }
+    .wpcf7{
+        margin-left: -20px;
+        width: 107%;
+        
+    }
 } /*end media 550*/
 
 @media (max-width: 410.00px) { 
