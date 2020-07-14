@@ -533,6 +533,7 @@ word-break: break-all;
     font-size: 18px;
 letter-spacing: 0.101em;
 font-weight: 600;
+    text-decoration: none;
 }
 .c-fax {
     display: block;
@@ -545,6 +546,7 @@ font-weight: 600;
     font-size: 18px;
 letter-spacing: 0.101em;
 font-weight: 600;
+     text-decoration: none;
 }
 .c-location {
     display: block;
@@ -569,6 +571,7 @@ font-weight: 600;
     font-size: 18px;
 letter-spacing: 0.045em;
 font-weight: 600;
+     text-decoration: none;
 }
 
 .c-email, .c-location, .c-fax, .c-phone {
