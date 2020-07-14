@@ -629,6 +629,18 @@ letter-spacing: 2.89px;
 font-weight: 500;
     
 }
+.soc .fa {
+    color: white;
+    
+}
+.soc .fa-whatsapp {
+    color: chartreuse;
+    
+}
+.soc:hover  i {
+    color: #0352be;
+    
+}
 .f-ca{
     position: absolute;
 top: 0px;
