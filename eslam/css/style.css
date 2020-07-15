@@ -10,6 +10,13 @@
     background-color: rgba(0,0,0,0);
 } */
 
+/*remove iphone phones auto link style by css*/
+/*add html as <a href="tel:9999">9999</>*/
+a[href^=tel] { 
+    color: inherit; 
+    text-decoration: none; 
+}
+/*remove iphone phones auto link style by css*/
 
 body {
     background: #fff;
