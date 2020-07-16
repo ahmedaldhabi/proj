@@ -90,6 +90,9 @@
     background-position: top left;
     background-size: auto;
     background-repeat: repeat;
+    
+    background-blend-mode: color-burn;
+background-color: #0287bb;
 }
 .th11l {
     background: url(../images/pats/tic-tac-toe.png);
@@ -184,11 +187,13 @@
 
 
 .shd-w-v-b {
+    -webkit-box-shadow: 0px 5px 50px -2px white inset, 0px -5px 50px -2px white inset;
     box-shadow: 0px 5px 50px -2px white inset, 0px -5px 50px -2px white inset;
     
     
 }
 .shd-awards {
+    -webkit-box-shadow: 0px 0px 0px 4px #ffd35091, 0px 0px 7px 7px #00000040;
     box-shadow: 0px 0px 0px 4px #ffd35091, 0px 0px 7px 7px #00000040;
     
     
