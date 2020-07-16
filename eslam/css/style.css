@@ -200,7 +200,7 @@ text-transform: uppercase;
 position: relative;
 padding-bottom: 20px;
 margin: 10px 0px 35px 0px;
-font-family: 'Roboto-medium';
+font-family: 'Roboto-medium', 'Segoe UI';
 font-weight: bolder;
 text-shadow: 0px 1px 1px rgba(255, 254, 254, 0.66), -3px 1px 1px rgba(26, 26, 26, 0.66) ;
 }
@@ -893,20 +893,27 @@ color: #3885ff !important;
     background-size: cover;  
 }
     
+    #about > div > div > h1 {
+        
+        font-size: 37px;
+    }
+    
 } /*end media 770*/
 
 @media (max-width: 550.00px) { 
     .carousel-caption h1 {
        font-size: 22px; 
         font-weight: bolder;
+        background: rgba(56, 133, 255, 0.61);
+        
     }
     .carousel-caption p {
         font-size: 14px;
 color: rgb(210, 210, 210);
-background: #7373734a;
+background: rgba(59, 59, 59, 0.6);
 padding-top: 6px;
 border-radius: 10px;
-        padding-bottom: 6px;
+        padding: 6px;
     }
     .carousel-caption p:hover{
 color: white;
@@ -916,6 +923,10 @@ color: white;
         width: 107%;
         
     }
+    
+    
+    
+    
 } /*end media 550*/
 
 @media (max-width: 410.00px) { 
