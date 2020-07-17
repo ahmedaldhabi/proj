@@ -874,7 +874,7 @@ color: #3885ff !important;
 #car3 {
     background: url(../images/slider/home/hvac-h.jpg);
     background-clip: border-box;
-    background-position: center;
+    background-position: center left;
     background-repeat: no-repeat;
     background-size: cover;  
 }
