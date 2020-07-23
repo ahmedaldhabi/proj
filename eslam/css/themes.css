@@ -85,6 +85,7 @@
     background-size: auto;
     background-repeat: repeat;
 }
+/*
 .th10l {
     background: url(../images/pats/spikes.png);
     background-position: top left;
@@ -93,6 +94,13 @@
     
     background-blend-mode: color-burn;
 background-color: #0287bb;
+}
+*/
+.th10l {
+    background: url(../images/pats/spikes-n.png);
+    background-position: top left;
+    background-size: auto;
+    background-repeat: repeat;
 }
 .th11l {
     background: url(../images/pats/tic-tac-toe.png);
