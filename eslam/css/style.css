@@ -386,7 +386,7 @@ border-top-right-radius: 0;
     
 }
 .card-body {
-    padding: 2px;
+    padding: 0px;
     background: #ffffff;
     color: white;
     -webkit-box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.39) inset;
@@ -396,15 +396,15 @@ border-top-right-radius: 0;
     max-height: 100%;
     
 }
-.my-row > div > .card-body::before {
+.my-row > div.crd::before {
     counter-increment: section;
 content: "#" counter(section);
 padding: 2px 8px;
-background: #0083b9;
+background: rgba(0, 131, 185, 0.47);
 color: white;
 float: left;
 clear: right;
-position: relative;
+position: absolute;
 max-height: 100%;
 max-width: 100%;
 font-size: 15px;
@@ -412,17 +412,18 @@ overflow: visible;
 line-height: 25px;
 font-weight: 700;
     left: 0px;
-bottom: 37px;
+top: 0px;
     display: block;
 /*    z-index: 999;*/
 /*    border-right: 1px dashed #454545;*/
     
 }
 .crd-tit-d {
-    background: rgba(33, 104, 201, 0.77);
+/*    background: rgba(33, 104, 201, 0.77);*/
     display: block;
     width: 100%;
     padding: 2px 2px;
+/*    padding-right: 10%;*/
     border-top: dashed 1.4px white;
     border-bottom: dashed 1.4px white;
 
@@ -434,6 +435,8 @@ position: relative;
     text-transform: uppercase;
     text-shadow: 0px 0px 1px rgb(181, 181, 181);
     font-size: 14px;
+    max-height: 100%;
+    bottom: 0px;
 }
 .crd-tit {
 /*    text-align: center;*/
