@@ -412,12 +412,20 @@ overflow: visible;
 line-height: 25px;
 font-weight: 700;
     left: 0px;
-top: 0px;
+top: 2px;
     display: block;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
 /*    z-index: 999;*/
 /*    border-right: 1px dashed #454545;*/
     
 }
+.crd:hover.crd::before {
+background: rgba(0, 131, 185, 1);
+
+}
+
+
 .crd-tit-d {
 /*    background: rgba(33, 104, 201, 0.77);*/
     display: block;
@@ -434,9 +442,11 @@ position: relative;
     font-weight: bolder;
     text-transform: uppercase;
     text-shadow: 0px 0px 1px rgb(181, 181, 181);
-    font-size: 14px;
+    font-size: 18px;
     max-height: 100%;
     bottom: 0px;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 .crd-tit {
 /*    text-align: center;*/
@@ -819,6 +829,17 @@ height: 35px;
     }
 
 }
+@media (max-width: 991px) {
+    .crd-tit-d {
+        font-size: 20px;
+        
+        
+    }
+    
+    
+    
+}
+
 @media (max-width: 770.98px) { 
 
 .nav-item {
