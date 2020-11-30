@@ -355,7 +355,7 @@ right: 25%;
 .crd {
     background: white;
     padding: 0px 0px;
-    margin: 10px 0.5%;
+    margin: 10px 20px;
     -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.57);
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.57);
     border-top: solid 3px #135caa;
@@ -841,6 +841,11 @@ height: 35px;
 }
 
 @media (max-width: 770.98px) { 
+.crd{
+
+    margin: 10px 0.5%;
+	
+}
 
 .nav-item {
     
